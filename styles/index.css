@@ -1,0 +1,66 @@
+body, .userContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://gsuite-img.hosting.kr/wp-content/uploads/2020/04/08151456/BGImage-Cloud-Saerch-Megazone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.userContainer {
+    color: white;
+    margin: 1vh;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.userIdNameContainer {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#userName {
+    margin-left: 2vw;
+}
+
+#userInfoButton {
+    background-color: darkgrey;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    height: 5vh;
+    width: 40vw;
+}
+
+#userInfoButton:hover {
+    background-color: #282525;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

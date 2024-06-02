@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://gsuite-img.hosting.kr/wp-content/uploads/2020/04/08151456/BGImage-Cloud-Saerch-Megazone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+ul, p {
+    margin: 0.3vh;
+    list-style-type: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 10vh;
+    width: 80vw;
+    height: 50vh;
+    overflow: auto;
+    color: white;
+    margin: 1vh;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.close {
+    position: absolute;
+    left: 97%;
+    top: 0.2%;
+    color: #a82929;
+    float: right;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.postTitle:hover,
+.postTitle:focus {
+    color: #a1a1cc;
+    cursor: pointer;
+}
+
+#currentUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#currentUserInfo {
+    background-color: rgba(161, 161, 204, 0);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#postsContainer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#postInfo {
+    background-color: darkgrey;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    margin: 3vh;
+    height: 4vh;
+    width: 90%;
+}
+
+#postInfo:hover {
+    background-color: #282525;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #666;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
